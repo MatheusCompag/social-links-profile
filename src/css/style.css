@@ -1,7 +1,39 @@
 html {
     font-family: 'Inter', sans-serif;
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+    
 }
 
 body{
-    background-color: hsl(0, 0%, 8%);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+    
 }
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.card .informations img{
+    border-radius: 50px;
+    height: 70px;
+    margin-left: 110px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+.card .informations .name{
+    color: white;
+}
+
