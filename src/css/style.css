@@ -16,8 +16,8 @@ height: 100vh;
 .card{
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
-    height: 500px;
-    width: 350px;
+    height: 600px;
+    width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,13 +27,31 @@ height: 100vh;
 
 .card .informations img{
     border-radius: 50px;
-    height: 70px;
-    margin-left: 110px; 
-    margin-top: 15px;
-    margin-bottom: 15px; 
+    height: 90px;
+    margin-left: 82px; 
+    margin-top: 20px;
+    margin-bottom: 13px; 
 }
 
 .card .informations .name{
     color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 11px;
 }
 
+.card .informations .cep{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 56px;
+    margin-top: 10px;
+}
+
+.card .informations .bio{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+
+}
